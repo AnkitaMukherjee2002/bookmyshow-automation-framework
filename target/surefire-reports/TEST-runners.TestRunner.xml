@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="98.537" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\capstone project\bookmyshow\target\test-classes;F:\capstone project\bookmyshow\target\classes;C:\Users\Lenovo\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Lenovo\.m2\repository\io\github\bonigarcia\webdrivermanager\6.2.0\webdrivermanager-6.2.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java\3.5.3\docker-java-3.5.3.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-core\3.5.3\docker-java-core-3.5.3.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-api\3.5.3\docker-java-api-3.5.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.4\jackson-annotations-2.18.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.4\jackson-databind-2.18.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.4\jackson-core-2.18.4.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.3\docker-java-transport-httpclient5-3.5.3.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-transport\3.5.3\docker-java-transport-3.5.3.jar;C:\Users\Lenovo\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Lenovo\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\Lenovo\.m2\repository\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Lenovo\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\Lenovo\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-testng\7.27.2\cucumber-testng-7.27.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12326952162639683765\surefirebooter-20250829163520975_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire12326952162639683765 2025-08-29T16-35-20_812-jvmRun1 surefire-20250829163520975_1tmp surefire_0-20250829163520975_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\capstone project\bookmyshow\target\test-classes;F:\capstone project\bookmyshow\target\classes;C:\Users\Lenovo\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Lenovo\.m2\repository\io\github\bonigarcia\webdrivermanager\6.2.0\webdrivermanager-6.2.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java\3.5.3\docker-java-3.5.3.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-core\3.5.3\docker-java-core-3.5.3.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-api\3.5.3\docker-java-api-3.5.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.4\jackson-annotations-2.18.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.4\jackson-databind-2.18.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.4\jackson-core-2.18.4.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.3\docker-java-transport-httpclient5-3.5.3.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-transport\3.5.3\docker-java-transport-3.5.3.jar;C:\Users\Lenovo\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Lenovo\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\Lenovo\.m2\repository\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Lenovo\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\Lenovo\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-testng\7.27.2\cucumber-testng-7.27.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\capstone project\bookmyshow"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12326952162639683765\surefirebooter-20250829163520975_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.15+6"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.15+6"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.15"/>
+    <property name="user.dir" value="F:\capstone project\bookmyshow"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Lenovo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Lenovo\bin;C:\Users\Lenovo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin\server;C:\Users\Lenovo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\MinGW\bin;C:\Program Files\Java\jdk-24\bin;D:\software\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\Desktop;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.15+6"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Search for a valid city name&quot;, &quot;City Search Module&quot;](1)" classname="runners.TestRunner" time="6.27">
+    <system-out><![CDATA[
+@ValidCitySearch
+Scenario Outline: Search for a valid city name       # file:///F:/capstone%20project/bookmyshow/features/city.feature:14
+  âœ” Given User is on the city selection page         # stepDefinitions.CitySearchSteps.user_is_on_the_city_selection_page()
+  âœ” When I search for city "Ranchi"                  # stepDefinitions.CitySearchSteps.i_search_for_city(java.lang.String)
+  âœ” Then I should see "Ranchi" in the search results # stepDefinitions.CitySearchSteps.i_should_see_in_the_search_results(java.lang.String)
+Ranchi
+  âœ” And verify dropdown text should be "Ranchi"      # stepDefinitions.CitySearchSteps.verify_dropdown_text_should_be(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for an invalid city name&quot;, &quot;City Search Module&quot;](2)" classname="runners.TestRunner" time="4.474">
+    <system-out><![CDATA[
+@InvalidCitySearch
+Scenario Outline: Search for an invalid city name          # file:///F:/capstone%20project/bookmyshow/features/city.feature:23
+  âœ” Given User is on the city selection page               # stepDefinitions.CitySearchSteps.user_is_on_the_city_selection_page()
+  âœ” When I search for city "AtlantisCity"                  # stepDefinitions.CitySearchSteps.i_search_for_city(java.lang.String)
+  âœ” Then I should see an error message "No results found." # stepDefinitions.CitySearchSteps.i_should_see_an_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Select city by choosing a city icon&quot;, &quot;City Search Module&quot;](3)" classname="runners.TestRunner" time="8.079">
+    <system-out><![CDATA[
+@CityIcons
+Scenario Outline: Select city by choosing a city icon # file:///F:/capstone%20project/bookmyshow/features/city.feature:32
+  âœ” Given User is on the city selection page          # stepDefinitions.CitySearchSteps.user_is_on_the_city_selection_page()
+Mumbai
+Delhi-NCR
+  âœ” When I select the city icon "Delhi"               # stepDefinitions.CitySearchSteps.i_select_the_city_icon(java.lang.String)
+Delhi-NCR
+  âœ” Then verify dropdown text should be "Delhi"       # stepDefinitions.CitySearchSteps.verify_dropdown_text_should_be(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;View all cities and validate additional city names&quot;, &quot;City Search Module&quot;](4)" classname="runners.TestRunner" time="12.882">
+    <system-out><![CDATA[
+@ViewAllCities
+Scenario Outline: View all cities and validate additional city names      # file:///F:/capstone%20project/bookmyshow/features/city.feature:42
+  âœ” Given User is on the city selection page                              # stepDefinitions.CitySearchSteps.user_is_on_the_city_selection_page()
+  âœ” When I click on "View All Cities"                                     # stepDefinitions.CitySearchSteps.i_click_on(java.lang.String)
+  âœ” Then I should see city names like "Nagpur" and "Bhubaneswar"          # stepDefinitions.CitySearchSteps.i_should_see_city_names_like_and(java.lang.String,java.lang.String)
+  âœ” And verify "Nagpur" and "Bhubaneswar" should not be in popular cities # stepDefinitions.CitySearchSteps.verify_cities_not_in_popular_cities(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to the Gift Card section and validate Check Gift Card Balance icon&quot;, &quot;Gift Card Module&quot;](5)" classname="runners.TestRunner" time="5.674">
+    <system-out><![CDATA[
+@GiftCardNavigation
+Scenario Outline: Navigate to the Gift Card section and validate Check Gift Card Balance icon # file:///F:/capstone%20project/bookmyshow/features/giftcard.feature:13
+  âœ” Given User is on home page and select city "Ranchi"                                       # stepDefinitions.LoginSteps.User_is_on_home_page_and_select_city(java.lang.String)
+  âœ” When User navigate to the gift card section                                               # stepDefinitions.GiftCardSteps.user_navigate_to_the_section()
+  âœ” Then User should see the "Check Gift Card Balance" icon displayed                         # stepDefinitions.GiftCardSteps.user_should_see_the_icon_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate error message for invalid gift card voucher&quot;, &quot;Gift Card Module&quot;](6)" classname="runners.TestRunner" time="6.5">
+    <system-out><![CDATA[
+@GiftCardInvalidVoucher
+Scenario Outline: Validate error message for invalid gift card voucher # file:///F:/capstone%20project/bookmyshow/features/giftcard.feature:25
+  âœ” Given User is on home page and select city "Ranchi"                # stepDefinitions.LoginSteps.User_is_on_home_page_and_select_city(java.lang.String)
+  âœ” When User navigate to the gift card section                        # stepDefinitions.GiftCardSteps.user_navigate_to_the_section()
+  âœ” When User click on the "Check Gift Card Balance" icon              # stepDefinitions.GiftCardSteps.user_click_on_the_icon(java.lang.String)
+  âœ” And User enter an invalid voucher code "12345ABCD"                 # stepDefinitions.GiftCardSteps.user_enter_an_invalid_voucher_code(java.lang.String)
+  âœ” And User click on the "Check Balance" button                       # stepDefinitions.GiftCardSteps.user_click_on_the_button(java.lang.String)
+  âœ” Then User should see an error message "Please verify input"        # stepDefinitions.GiftCardSteps.user_should_see_an_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Valid login with mobile and OTP&quot;, &quot;Login to BookMyShow&quot;](7)" classname="runners.TestRunner" time="8.629">
+    <system-out><![CDATA[
+@ValidLogin
+Scenario Outline: Valid login with mobile and OTP       # file:///F:/capstone%20project/bookmyshow/features/login.feature:18
+  âœ” Given User is on home page and select city "Ranchi" # stepDefinitions.LoginSteps.User_is_on_home_page_and_select_city(java.lang.String)
+  âœ” When User is on Login Page                          # stepDefinitions.LoginSteps.user_is_on_login_page()
+deleted
+  âœ” And User enters mobile number "8709095528"          # stepDefinitions.LoginSteps.user_enters_mobile_number(java.lang.String)
+  âœ” And Clicks on Continue                              # stepDefinitions.LoginSteps.clicks_on_continue()
+  âœ” Then Verify Otp page                                # stepDefinitions.LoginSteps.Verify_Otp_page()
+  âœ” And back to login page                              # stepDefinitions.LoginSteps.back_to_login_page()
+  âœ” And close popup                                     # stepDefinitions.LoginSteps.close_popup()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Invalid login with mobile&quot;, &quot;Login to BookMyShow&quot;](8)" classname="runners.TestRunner" time="9.06">
+    <system-out><![CDATA[
+@InvalidLogin
+Scenario Outline: Invalid login with mobile             # file:///F:/capstone%20project/bookmyshow/features/login.feature:29
+  âœ” Given User is on home page and select city "Ranchi" # stepDefinitions.LoginSteps.User_is_on_home_page_and_select_city(java.lang.String)
+  âœ” When User is on Login Page                          # stepDefinitions.LoginSteps.user_is_on_login_page()
+deleted
+  âœ” And User enters mobile number "12345678"            # stepDefinitions.LoginSteps.user_enters_mobile_number(java.lang.String)
+  âœ” Then Verify message "Invalid mobile number"         # stepDefinitions.LoginSteps.Verify_message(java.lang.String)
+  âœ” And close popup                                     # stepDefinitions.LoginSteps.close_popup()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify all login UI elements are functional and visible&quot;, &quot;Login to BookMyShow&quot;](9)" classname="runners.TestRunner" time="22.381">
+    <system-out><![CDATA[
+@UIValidation
+Scenario Outline: Verify all login UI elements are functional and visible # file:///F:/capstone%20project/bookmyshow/features/login.feature:44
+  âœ” Given User is on home page and select city "Ranchi"                   # stepDefinitions.LoginSteps.User_is_on_home_page_and_select_city(java.lang.String)
+  âœ” When User is on Login Page                                            # stepDefinitions.LoginSteps.user_is_on_login_page()
+  âœ” Then Verify that mobile number field is visible                       # stepDefinitions.LoginSteps.verify_that_mobile_number_field_is_visible()
+  âœ” And Verify that Continue button is not visible                        # stepDefinitions.LoginSteps.verify_that_continue_button_is_not_visible()
+deleted
+  âœ” When User enters mobile number "1234567812"                           # stepDefinitions.LoginSteps.user_enters_mobile_number(java.lang.String)
+  âœ” Then verify continue button is visible but should disable             # stepDefinitions.LoginSteps.verify_continue_button_is_visible_but_should_disable()
+deleted
+  âœ” When User enters mobile number "8709095528"                           # stepDefinitions.LoginSteps.user_enters_mobile_number(java.lang.String)
+  âœ” Then Verify continue button should enabled                            # stepDefinitions.LoginSteps.then_verify_continue_button_should_enabled()
+  âœ” And close popup                                                       # stepDefinitions.LoginSteps.close_popup()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Select first movie from recommended movies and validate movie details&quot;, &quot;Movie Search Module&quot;](10)" classname="runners.TestRunner" time="7.087">
+    <system-out><![CDATA[
+@CurrentMovies
+Scenario: Select first movie from recommended movies and validate movie details # file:///F:/capstone%20project/bookmyshow/features/movie.feature:7
+  âœ” Given User is on home page and select city "Ranchi"                         # stepDefinitions.LoginSteps.User_is_on_home_page_and_select_city(java.lang.String)
+  âœ” When I select the first movie from the Recommended Movies section           # stepDefinitions.MovieSteps.i_select_the_first_movie_from_the_recommended_movies_section()
+  âœ” Then I should see the movie details page                                    # stepDefinitions.MovieSteps.i_should_see_the_movie_details_page()
+  âœ” And the movie name should be displayed                                      # stepDefinitions.MovieSteps.the_movie_name_should_be_displayed()
+  âœ” And the movie poster should be visible                                      # stepDefinitions.MovieSteps.the_movie_poster_should_be_visible()
+  âœ” And the booking option should be available                                  # stepDefinitions.MovieSteps.the_booking_option_should_be_available()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to upcoming movies and validate &quot;In Cinemas Near You&quot; link&quot;, &quot;Movie Search Module&quot;](11)" classname="runners.TestRunner" time="6.512">
+    <system-out><![CDATA[
+@UpcomingMovies
+Scenario: Navigate to upcoming movies and validate "In Cinemas Near You" link # file:///F:/capstone%20project/bookmyshow/features/movie.feature:16
+  âœ” Given User is on home page and select city "Ranchi"                       # stepDefinitions.LoginSteps.User_is_on_home_page_and_select_city(java.lang.String)
+  âœ” When I click on the Movies tab                                            # stepDefinitions.MovieSteps.i_click_on_the_movies_tab()
+  âœ” And I click on the "Explore Upcoming Movies" link                         # stepDefinitions.MovieSteps.i_click_on_the_link(java.lang.String)
+  âœ” Then I should see the "In Cinemas Near You" link displayed                # stepDefinitions.MovieSteps.i_should_see_the_link_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>

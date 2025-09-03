@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-29T16:05:04 IST" name="Suite" finished-at="2025-08-29T16:08:19 IST" duration-ms="194560">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-08-29T16:05:04 IST" name="chromeTest" finished-at="2025-08-29T16:06:41 IST" duration-ms="97216">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:05:04 IST" name="setUpClass" finished-at="2025-08-29T16:05:05 IST" duration-ms="506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c02899]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:05:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:05:12 IST" duration-ms="7749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for a valid city name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["City Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:05:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:05:17 IST" duration-ms="4408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for an invalid city name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["City Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:05:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:05:26 IST" duration-ms="9217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select city by choosing a city icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["City Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:05:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:05:38 IST" duration-ms="12326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View all cities and validate additional city names"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["City Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:05:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:05:44 IST" duration-ms="5363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the Gift Card section and validate Check Gift Card Balance icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Gift Card Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:05:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:05:50 IST" duration-ms="6419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate error message for invalid gift card voucher"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Gift Card Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:05:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:05:59 IST" duration-ms="8470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid login with mobile and OTP"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to BookMyShow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:05:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:06:07 IST" duration-ms="8234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid login with mobile"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to BookMyShow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:06:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:06:29 IST" duration-ms="22142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify all login UI elements are functional and visible"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to BookMyShow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:06:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:06:35 IST" duration-ms="6429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select first movie from recommended movies and validate movie details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Movie Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:06:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:06:41 IST" duration-ms="5857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to upcoming movies and validate "In Cinemas Near You" link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Movie Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@63475ace]" started-at="2025-08-29T16:06:41 IST" name="tearDownClass" finished-at="2025-08-29T16:06:41 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-08-29T16:06:41 IST" name="EdgeTest" finished-at="2025-08-29T16:08:19 IST" duration-ms="97312">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:06:41 IST" name="setUpClass" finished-at="2025-08-29T16:06:41 IST" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b895e76]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:06:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:06:50 IST" duration-ms="8661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for a valid city name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["City Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:06:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:06:54 IST" duration-ms="4359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for an invalid city name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["City Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:06:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:07:02 IST" duration-ms="7743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select city by choosing a city icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["City Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:07:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:07:16 IST" duration-ms="13989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View all cities and validate additional city names"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["City Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:07:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:07:22 IST" duration-ms="5388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the Gift Card section and validate Check Gift Card Balance icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Gift Card Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:07:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:07:28 IST" duration-ms="6308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate error message for invalid gift card voucher"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Gift Card Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:07:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:07:36 IST" duration-ms="8585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid login with mobile and OTP"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to BookMyShow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:07:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:07:45 IST" duration-ms="8284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid login with mobile"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to BookMyShow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:07:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:08:07 IST" duration-ms="21818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify all login UI elements are functional and visible"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to BookMyShow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:08:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:08:13 IST" duration-ms="6287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select first movie from recommended movies and validate movie details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Movie Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:08:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T16:08:19 IST" duration-ms="5821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to upcoming movies and validate "In Cinemas Near You" link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Movie Search Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@175b9425]" started-at="2025-08-29T16:08:19 IST" name="tearDownClass" finished-at="2025-08-29T16:08:19 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
