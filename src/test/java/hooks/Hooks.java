@@ -5,16 +5,18 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import utils.ScreenshotUtils;
+
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
+
 
 public class Hooks {
 	private static WebDriver driver;
 
 	@Before
 	public void setUp() {
-		// Always use headless Chrome in Jenkins
-		// If you want to pass browser from CLI later, we can extend this
-		driver = DriverSetup.getDriver("chrome");
+		String browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
+		driver = DriverSetup.getDriver(browser);
 	}
 
 	@After
