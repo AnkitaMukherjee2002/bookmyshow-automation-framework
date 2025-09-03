@@ -9,7 +9,8 @@ pipeline {
     stages {
 		stage('Checkout') {
 			steps {
-				git 'https://github.com/AnkitaMukherjee2002/bookmyshow-automation-framework.git'
+				git branch: 'main',
+            url: 'https://github.com/AnkitaMukherjee2002/bookmyshow-automation-framework.git'
             }
         }
 
