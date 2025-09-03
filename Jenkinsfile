@@ -2,14 +2,14 @@ pipeline {
 	agent any
 
     tools {
-		maven 'Maven-3.9.4'
-        jdk 'OpenJDK-17'
+		maven 'Maven-3.9.11'
+        jdk 'jdk-17'
     }
 
     stages {
 		stage('Checkout') {
 			steps {
-				git 'https://github.com/your-repo/selenium-testng-project.git'
+				git 'https://github.com/AnkitaMukherjee2002/bookmyshow-automation-framework.git'
             }
         }
 
